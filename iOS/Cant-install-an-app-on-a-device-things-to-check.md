@@ -24,7 +24,7 @@ On iOS 9.2+, this can be done in: Settings > General > Device Management > tap o
 
 ### Unable to download app popup
 
-If an "Unable to download app" popup appears after some time, first check the internet connexion, and be sure that the device is not behind a firewall that may prevent downloading .ipa files (as this happens a lot in enterprise firewall configurations).
+If an "Unable to download app" popup appears after some time, first check the internet connection, and be sure that the device is not behind a firewall that may prevent downloading .ipa files (as this happens a lot in enterprise firewall configurations).
 
 Sadly, iOS won't give any detailed information on what went wrong here. As a user, Diawi provides information on the installation page about the most common checks. As a developer, a detailed list of checks can be found below.
 
