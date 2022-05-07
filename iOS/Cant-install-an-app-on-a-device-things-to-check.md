@@ -78,7 +78,7 @@ Current architectures and their compatibility:
  * armv7s: iPhone 5+, iPad 4+, iPad mini 1, iPod touch 3rd gen.+
  * arm64: iPhone 5s+, iPad Air+, iPad mini 2+, iPod touch 6th gen.+
 
-(Source: [List of iOS devices on Wikipedia](http://en.wikipedia.org/wiki/List_of_iOS_devices#Features))
+(Source: [List of iOS devices on Wikipedia](https://en.wikipedia.org/wiki/List_of_iOS_devices#Features))
 
 Newer devices are so far compatible with older architectures: an iPad Air, arm64, can run an armv7 built app, but not the opposite.
 
