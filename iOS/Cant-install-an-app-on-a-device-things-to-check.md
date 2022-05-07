@@ -64,7 +64,7 @@ Also, Diawi displays this list on the installation page and checks if the user's
 ### Valid UDIDs
 UDIDs are string of 40 hexadecimal characters (`[0-9a-f]{40}`).
 
-Device's UDID must be retrieved using iTunes or a webapp like m.diawi.com: those UDIDs are known to be valid.
+Device's UDID must be retrieved using iTunes or the Finder on a mac, or a webapp like webapp.diawi.com: those UDIDs are known to be valid.
 
 For some time, it was possible to get the device's UDID using a native API provided by Apple and integrated in some apps available on the AppStore. However, this API has been deprecated in iOS 7 and instead provides a __"fake" UDID starting with ffffff__.... Those UDIDs are __not valid__ and can't be used to identify a device and install apps on it.
 
