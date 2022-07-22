@@ -1,6 +1,6 @@
 # Can't install an app on an Android device? Things to check
 
-Apple doesn't provide explicit error messages when installing apps on devices. It can be quiet difficult to understand what could have gone wrong.
+Apple doesn't provide explicit error messages when installing apps on devices. It can be quite difficult to understand what could have gone wrong.
 
 ## Behaviors
 
