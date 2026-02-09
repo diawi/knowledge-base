@@ -6,19 +6,16 @@ One way to get a little bit more information is to connect the device to a Mac w
 
 ## Accessing the console
 
-The device console is located in xcode's Window > Devices menu
+The device console is located in Xcode's __Window > Devices and Simulators__ menu. Select your device on the left, then click __Open Console__ to view the device logs.
+
+> In older versions of Xcode (before Xcode 11), the menu was called __Window > Devices__ and the console appeared directly in the bottom right of the Devices window.
 
 ![Xcode Devices in the Window menu](/iOS/images/xcode-devices-menu.png)
 
-In the Device window, choose your device on the left and the console will appear in the bottom right.
-
 ![Xcode Devices window](/iOS/images/xcode-devices-window.png)
 
-Search for lines containing `itunesstored`: those error messages often help debugging problems with installations.
+Start the installation on the device through the Diawi link.
 
-## Error messages
-* Cannot load non-https manifest URL
+Search the logs for lines containing `itunesstored` or `appstored` or words like `installation` or `error`: those error messages often help debugging problems with installations.
 
-The error in the screenshot above means that a manifest plist was requested on an HTTP url, but Apple requires that manifests must be served through HTTPS since iOS 8+.
-
-This error should never happen on Diawi, but may happen on custom setups.
+If you don't find the error message, copy and paste all the logs and provide them inside a support ticket: we'll help you get the information! 
